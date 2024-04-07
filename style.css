@@ -268,3 +268,43 @@ body {
         display: none;
     }
 }
+
+
+@media screen and (max-height: 700px) {
+    
+.pic-1,
+.pic-2 {
+    height: 170px;
+}
+}
+
+@media screen and (max-height: 600px) {
+    
+    .main-page {
+        font-size: 60px;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .date {
+        font-size: 60px;
+    }
+
+    .initials {
+        font-size: 60px;
+    }
+
+    .time {
+        font-size: 30px;
+    }
+
+    .title-2 {
+        font-size: 16px
+    }
+}
